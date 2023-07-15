@@ -1,6 +1,6 @@
+import { Container } from './Container/Container';
 import { Profile } from './Profile/Profile';
 import user from '../data/user.json';
-import { Container } from './Container/Container';
 
 export const App = () => {
   return (
@@ -15,18 +15,3 @@ export const App = () => {
     </Container>
   );
 };
-
-{
-  /* <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template
-    </div> */
-}
