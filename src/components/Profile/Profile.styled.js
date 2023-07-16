@@ -4,6 +4,7 @@ export const Card = styled.div`
   width: 300px;
   margin: 0px auto;
   margin-top: 30px;
+  margin-bottom: 50px;
 
   background-color: white;
 
@@ -50,6 +51,9 @@ export const StatsList = styled.ul`
     flex-direction: column;
     align-items: center;
 
-    border-right: 1px solid white;
+    border-top: 1px solid gray;
+    &:not(:last-child) {
+      border-right: 1px solid white;
+    }
   }
 `;
